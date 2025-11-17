@@ -1,0 +1,9 @@
+# Core dependencies for PRET
+colorama>=0.4.0
+requests>=2.20.0
+
+# Optional dependencies for enhanced functionality
+pysnmp>=4.4.0
+
+# Windows-specific dependency for Unicode console support
+win-unicode-console>=0.5; sys_platform == "win32"
